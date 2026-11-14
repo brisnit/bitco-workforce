@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Roboto Mono, Menlo, monospace">
+<defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#0c4a73" stroke-opacity=".12" stroke-width="1"/></pattern></defs>
+<rect width="640" height="420" fill="#082d49"/><rect width="640" height="420" fill="url(#g)"/>
+<rect x="12" y="12" width="616" height="396" fill="none" stroke="#62b9d7" stroke-opacity=".5"/>
+<g fill="none" stroke="#dfe9f1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M90 170h120v80H90z"/><path d="M210 180h220v60H210z"/><path d="M430 190h120v40H430z"/>
+<g stroke-opacity=".6" stroke-width="1.5"><path d="M440 190l6 40M452 190l6 40M464 190l6 40M476 190l6 40M488 190l6 40M500 190l6 40M512 190l6 40M524 190l6 40"/>
+<path d="M100 170l6 80M112 170l6 80M124 170l6 80M136 170l6 80"/></g>
+<path d="M60 210h520" stroke-dasharray="14 6 3 6" stroke="#62b9d7" stroke-width="1"/>
+<g stroke="#ff6100" stroke-width="1.5"><path d="M90 290h460M90 284v12M550 284v12"/><path d="M70 170v80M64 170h12M64 250h12"/><path d="M570 190v40M564 190h12M564 230h12"/></g>
+<text x="300" y="312" fill="#ff6100" stroke="none" font-size="12">OVERALL LENGTH</text>
+<text x="20" y="214" fill="#ff6100" stroke="none" font-size="12">BOX</text>
+<text x="584" y="214" fill="#ff6100" stroke="none" font-size="12">PIN</text>
+<text x="60" y="60" fill="#62b9d7" stroke="none" font-size="12">ADAPTER / SUB — PROFILE</text>
+<text x="60" y="78" fill="#9fb6c8" stroke="none" font-size="10">CONFIRM DRAWING REVISION BEFORE CUTTING THREADS</text></g>
+<rect x="404" y="344" width="212" height="52" fill="#032641" stroke="#62b9d7" stroke-opacity=".6"/>
+<text x="414" y="364" fill="#ff6100" font-size="11" font-weight="700" letter-spacing="1">ADAPTER / SUB</text>
+<text x="414" y="380" fill="#9fb6c8" font-size="9">ILLUSTRATIVE REFERENCE · DEMO</text>
+<text x="414" y="391" fill="#9fb6c8" font-size="9">NOT A BITCO SPECIFICATION · REF-02</text>
+</svg>

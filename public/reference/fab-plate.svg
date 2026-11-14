@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Roboto Mono, Menlo, monospace">
+<defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#0c4a73" stroke-opacity=".12" stroke-width="1"/></pattern></defs>
+<rect width="640" height="420" fill="#082d49"/><rect width="640" height="420" fill="url(#g)"/>
+<rect x="12" y="12" width="616" height="396" fill="none" stroke="#62b9d7" stroke-opacity=".5"/>
+<g fill="none" stroke="#dfe9f1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M140 90h360v240H140z"/><circle cx="320" cy="210" r="70"/><path d="M290 140h60v20h-60z" stroke-opacity=".6"/>
+<g stroke-opacity=".7"><circle cx="175" cy="125" r="10"/><circle cx="465" cy="125" r="10"/><circle cx="175" cy="295" r="10"/><circle cx="465" cy="295" r="10"/></g>
+<path d="M140 90l-20-20M500 90l20-20M140 330l-20 20M500 330l20 20" stroke="#62b9d7" stroke-width="1" stroke-dasharray="4 4"/>
+<g stroke="#ff6100" stroke-width="1.5"><path d="M140 360h360M140 354v12M500 354v12"/><path d="M110 90v240M104 90h12M104 330h12"/><path d="M250 210h140M250 204v12M390 204v12"/></g>
+<text x="306" y="380" fill="#ff6100" stroke="none" font-size="12">WIDTH</text><text x="70" y="214" fill="#ff6100" stroke="none" font-size="12">H</text><text x="300" y="232" fill="#ff6100" stroke="none" font-size="12">BORE</text>
+<text x="60" y="60" fill="#62b9d7" stroke="none" font-size="12">FABRICATED PLATE — LAYOUT</text></g>
+<rect x="404" y="344" width="212" height="52" fill="#032641" stroke="#62b9d7" stroke-opacity=".6"/>
+<text x="414" y="364" fill="#ff6100" font-size="11" font-weight="700" letter-spacing="1">FAB PLATE</text>
+<text x="414" y="380" fill="#9fb6c8" font-size="9">ILLUSTRATIVE REFERENCE · DEMO</text>
+<text x="414" y="391" fill="#9fb6c8" font-size="9">NOT A BITCO SPECIFICATION · REF-04</text>
+</svg>

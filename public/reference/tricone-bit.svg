@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Roboto Mono, Menlo, monospace">
+<defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#0c4a73" stroke-opacity=".12" stroke-width="1"/></pattern></defs>
+<rect width="640" height="420" fill="#082d49"/><rect width="640" height="420" fill="url(#g)"/>
+<rect x="12" y="12" width="616" height="396" fill="none" stroke="#62b9d7" stroke-opacity=".5"/>
+<g fill="none" stroke="#dfe9f1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M250 70h140v40l-10 20h-120l-10-20z"/>
+<path d="M260 110v-30M380 110v-30" stroke-opacity=".5"/>
+<path d="M260 130 l-40 70 a60 60 0 0 0 30 80 l70 10 70-10 a60 60 0 0 0 30-80 l-40-70z"/>
+<circle cx="245" cy="250" r="34"/><circle cx="395" cy="250" r="34"/><circle cx="320" cy="285" r="34"/>
+<g fill="#dfe9f1" stroke="none">
+<circle cx="230" cy="240" r="4"/><circle cx="250" cy="228" r="4"/><circle cx="262" cy="248" r="4"/><circle cx="240" cy="265" r="4"/>
+<circle cx="380" cy="240" r="4"/><circle cx="400" cy="228" r="4"/><circle cx="412" cy="250" r="4"/><circle cx="392" cy="266" r="4"/>
+<circle cx="305" cy="278" r="4"/><circle cx="325" cy="268" r="4"/><circle cx="338" cy="290" r="4"/><circle cx="315" cy="300" r="4"/></g>
+<g stroke="#ff6100" stroke-width="1.5"><path d="M190 320h260M190 314v12M450 314v12"/></g>
+<text x="290" y="342" fill="#ff6100" stroke="none" font-size="12">GAUGE Ø</text>
+<g stroke="#ff6100" stroke-width="1.5"><path d="M460 70v60M454 70h12M454 130h12"/></g>
+<text x="472" y="104" fill="#ff6100" stroke="none" font-size="12">PIN</text>
+<text x="60" y="60" fill="#62b9d7" stroke="none" font-size="12">TRICONE BIT — SIDE VIEW</text>
+<path d="M440 250h40" stroke-dasharray="4 4" stroke-opacity=".6"/><text x="486" y="254" fill="#dfe9f1" stroke="none" font-size="11">CONE / INSERTS</text></g>
+<rect x="404" y="344" width="212" height="52" fill="#032641" stroke="#62b9d7" stroke-opacity=".6"/>
+<text x="414" y="364" fill="#ff6100" font-size="11" font-weight="700" letter-spacing="1">TRICONE BIT</text>
+<text x="414" y="380" fill="#9fb6c8" font-size="9">ILLUSTRATIVE REFERENCE · DEMO</text>
+<text x="414" y="391" fill="#9fb6c8" font-size="9">NOT A BITCO SPECIFICATION · REF-01</text>
+</svg>

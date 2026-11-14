@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Roboto Mono, Menlo, monospace">
+<defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#0c4a73" stroke-opacity=".12" stroke-width="1"/></pattern></defs>
+<rect width="640" height="420" fill="#082d49"/><rect width="640" height="420" fill="url(#g)"/>
+<rect x="12" y="12" width="616" height="396" fill="none" stroke="#62b9d7" stroke-opacity=".5"/>
+<g fill="none" stroke="#dfe9f1" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<circle cx="320" cy="210" r="140"/><circle cx="320" cy="210" r="112" stroke-opacity=".5"/>
+<g fill="#dfe9f1" stroke="none">
+<circle cx="445.0" cy="210.0" r="9"/><circle cx="428.3" cy="272.5" r="9"/><circle cx="382.5" cy="318.3" r="9"/><circle cx="320.0" cy="335.0" r="9"/><circle cx="257.5" cy="318.3" r="9"/><circle cx="211.7" cy="272.5" r="9"/><circle cx="195.0" cy="210.0" r="9"/><circle cx="211.7" cy="147.5" r="9"/><circle cx="257.5" cy="101.7" r="9"/><circle cx="320.0" cy="85.0" r="9"/><circle cx="382.5" cy="101.7" r="9"/><circle cx="428.3" cy="147.5" r="9"/><circle cx="386.9" cy="230.7" r="8"/><circle cx="352.7" cy="271.9" r="8"/><circle cx="299.4" cy="276.9" r="8"/><circle cx="258.1" cy="242.7" r="8"/><circle cx="253.1" cy="189.4" r="8"/><circle cx="287.2" cy="148.2" r="8"/><circle cx="340.5" cy="143.1" r="8"/><circle cx="381.8" cy="177.2" r="8"/><circle cx="320" cy="210" r="8"/></g>
+<path d="M300 150a20 10 0 0 0 40 0M360 250a10 20 0 0 0 0 30M260 250a10 20 0 0 1 0 30" stroke="#62b9d7"/>
+<path d="M455 120l60-40" stroke="#ff6100" stroke-width="1.5"/><text x="520" y="78" fill="#ff6100" stroke="none" font-size="12">GAUGE BUTTONS</text>
+<path d="M370 170l120 -10" stroke="#ff6100" stroke-width="1.5"/><text x="496" y="164" fill="#ff6100" stroke="none" font-size="12">FACE BUTTONS</text>
+<text x="60" y="60" fill="#62b9d7" stroke="none" font-size="12">HAMMER BIT — FACE VIEW</text></g>
+<rect x="404" y="344" width="212" height="52" fill="#032641" stroke="#62b9d7" stroke-opacity=".6"/>
+<text x="414" y="364" fill="#ff6100" font-size="11" font-weight="700" letter-spacing="1">HAMMER BIT FACE</text>
+<text x="414" y="380" fill="#9fb6c8" font-size="9">ILLUSTRATIVE REFERENCE · DEMO</text>
+<text x="414" y="391" fill="#9fb6c8" font-size="9">NOT A BITCO SPECIFICATION · REF-03</text>
+</svg>

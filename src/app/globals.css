@@ -1,0 +1,163 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * BITCO design tokens — sourced from the BITCO website
+ * (https://bitco-steel.vercel.app/): navy #032641, orange #FF6100,
+ * ink #0B0D10, warm white #F8F6F1, Archivo display + Inter body + Roboto Mono.
+ */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter), "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: var(--font-archivo), "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-heading: var(--font-display);
+  --font-mono: var(--font-roboto-mono), ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* Brand palette */
+  --color-navy: #032641;
+  --color-deep: #082d49;
+  --color-ocean: #0c4a73;
+  --color-ink: #0b0d10;
+  --color-orange: #ff6100;
+  --color-orange-600: #e85700;
+  --color-orange-700: #b84500;
+  --color-amber: #f7a323;
+  --color-cyan: #62b9d7;
+  --color-cream: #f1ebdd;
+  --color-warm-white: #f8f6f1;
+  --color-steel-50: #f4f5f6;
+  --color-steel-100: #e7e9ec;
+  --color-steel-200: #d3d7dc;
+  --color-steel-300: #b3bac2;
+  --color-steel-400: #8a939e;
+  --color-steel-500: #67717d;
+  --color-steel-600: #4d5661;
+  --color-steel-700: #3a424c;
+
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  --background: #f6f5f1;
+  --foreground: #0b0d10;
+  --card: #ffffff;
+  --card-foreground: #0b0d10;
+  --popover: #ffffff;
+  --popover-foreground: #0b0d10;
+  --primary: #032641;
+  --primary-foreground: #ffffff;
+  --secondary: #eceae4;
+  --secondary-foreground: #032641;
+  --muted: #efede8;
+  --muted-foreground: #5b6470;
+  --accent: #f1efe9;
+  --accent-foreground: #032641;
+  --destructive: #c8372d;
+  --border: #e3e0d8;
+  --input: #d9d5cc;
+  --ring: #ff6100;
+  --chart-1: #032641;
+  --chart-2: #ff6100;
+  --chart-3: #62b9d7;
+  --chart-4: #f7a323;
+  --chart-5: #0c4a73;
+  --radius: 0.5rem;
+  --sidebar: #032641;
+  --sidebar-foreground: #dfe7ee;
+  --sidebar-primary: #ff6100;
+  --sidebar-primary-foreground: #0b0d10;
+  --sidebar-accent: #0a3456;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #0e3a5c;
+  --sidebar-ring: #ff6100;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  /* Condensed, uppercase industrial label (mirrors bitco site eyebrow text). */
+  .eyebrow {
+    @apply font-display text-[0.6875rem] font-bold tracking-[0.14em] uppercase;
+  }
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+  /* Subtle diagonal steel texture for hero surfaces. */
+  .steel-texture {
+    background-image:
+      repeating-linear-gradient(135deg, rgb(255 255 255 / 0.035) 0 2px, transparent 2px 9px),
+      radial-gradient(120% 140% at 100% 0%, rgb(98 185 215 / 0.18), transparent 55%);
+  }
+  .hazard-stripe {
+    background-image: repeating-linear-gradient(-45deg, #ff6100 0 10px, #0b0d10 10px 20px);
+  }
+  .safe-bottom {
+    padding-bottom: max(env(safe-area-inset-bottom), 0px);
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+}
